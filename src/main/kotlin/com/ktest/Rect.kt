@@ -1,0 +1,21 @@
+package com.ktest
+
+class Rect(val h: Int, val w: Int) {
+    val area: Int = h * w
+
+    //是否是正方形?
+    val isSquare: Boolean
+        get() {
+            return h == w
+        }
+
+    override fun toString(): String {
+        return "Rect(h: ${h},w: ${w},area: ${area}isSquare: ${isSquare})"
+    }
+}
+
+fun main() {
+    val rect = Rect(10, 20)
+    println(rect.area)
+    println(rect.isSquare)
+}

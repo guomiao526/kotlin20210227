@@ -10,6 +10,11 @@ class KHello {
 
 fun main(args: Array<String>) {
     println("Hello Kotlin")
+    Thread.sleep(1000)
+    println("Hello Kotlin")
+    Thread.sleep(1000)
+    println("Hello Kotlin")
+    Thread.sleep(1000)
     //呼叫JHello 的 callMe
     val j = JHello()
     j.callMe()
