@@ -1,4 +1,4 @@
-package com.ktest
+package com.基礎語法
 
 //存取修飾字 (預設是 public) fun 方法名稱(參數名: 參數型態, 參數名: 參數型態...): 回傳型態{
 //方法區塊實作

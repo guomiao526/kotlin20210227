@@ -1,4 +1,4 @@
-package com.ktest
+package com.基礎語法
 
 import kotlin.random.Random as r
 
